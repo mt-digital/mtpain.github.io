@@ -4,6 +4,7 @@ by Jason Costello, @jsncostello
 *******************************************************************************/
 
 @import url(pygment_trac.css);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500,700);
 
 /*******************************************************************************
 MeyerWeb Reset
@@ -62,11 +63,14 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 10px 0;
+  margin: 10px -20px;
   font-weight: 700;
-  color:#222222;
-  font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
+  color:#fff;
+  background-color:#212121;
+  font-family: 'Ubuntu', 'Calibri', Helvetica, Arial, sans-serif;
   letter-spacing: -1px;
+  /*float:left;*/
+  display:inline-block;
 }
 
 h1 {
@@ -75,9 +79,9 @@ h1 {
 }
 
 h2 {
-  padding-bottom: 10px;
+  padding-bottom: 0px;
   font-size: 32px;
-  background: url('../images/bg_hr.png') repeat-x bottom;
+  /*background: url('../images/bg_hr.png') repeat-x bottom;*/
 }
 
 h3 {
@@ -268,7 +272,7 @@ Full-Width Styles
 #forkme_banner {
   display: block;
   position: absolute;
-  top:0;
+  bottom:10px;
   right: 10px;
   z-index: 10;
   padding: 10px 50px 10px 10px;
@@ -281,12 +285,12 @@ Full-Width Styles
 }
 
 #header_wrap {
-  background: #212121;
-  background: -moz-linear-gradient(top, #373737, #212121);
-  background: -webkit-linear-gradient(top, #373737, #212121);
-  background: -ms-linear-gradient(top, #373737, #212121);
-  background: -o-linear-gradient(top, #373737, #212121);
-  background: linear-gradient(top, #373737, #212121);
+  background-color: #212121;
+  /*background: -moz-linear-gradient(top, #373737, #212121);*/
+  /*background: -webkit-linear-gradient(top, #373737, #212121);*/
+  /*background: -ms-linear-gradient(top, #373737, #212121);*/
+  /*background: -o-linear-gradient(top, #373737, #212121);*/
+  /*background: linear-gradient(top, #373737, #212121);*/
 }
 
 #header_wrap .inner {
@@ -297,16 +301,20 @@ Full-Width Styles
   margin: 0;
   color: #fff;
   font-size: 42px;
+  background:none;
   font-weight: 700;
   text-shadow: #111 0px 0px 10px;
+  display:block;
 }
 
-#project_tagline {
+#project_tagline { 
+  margin: 0 20pt;
   color: #fff;
   font-size: 24px;
   font-weight: 300;
-  background: none;
+  background-color:#212121;
   text-shadow: #111 0px 0px 10px;
+  display:block;
 }
 
 #downloads {
@@ -362,7 +370,13 @@ Full-Width Styles
   background: #212121;
 }
 
+/*#footer_contact {*/
+    /*text-decoration: underline;*/
+/*}*/
 
+.footer_contact_entry {
+    font-weight: bold;
+}
 
 /*******************************************************************************
 Small Device Styles
