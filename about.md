@@ -1,14 +1,13 @@
 ---
-layout: sidebar
+title: yes
 ---
-## in single words:
+### in single words:
 excitable, serious, silly, spacey, spiritual, ambitious, thoughtful
 ## recent history and aspirations
 In the past two years, I moved from Houston, TX, where I finished a master's in
 applied physics to Moscow, Idaho, where I currently work as a data engineer. 
 In my spare time I read, cook, work in the garden, study the bible and its teachings
-alone or with friends
-and fellows, play guitar, code, or bike, among other things. 
+alone or with friends and fellows, play guitar, code, or bike, among other things. 
 
 Very recently, I became the volunteer coordinator of my church
 to organize our efforts towards the Family Promise of the Palouse program. 
@@ -26,7 +25,15 @@ often are by the government and from which private
 corporations profit immensely from. The motivation for this is given below, the
 last bit of my 'further back history'.
 
+I want a Christain future, in the sense of people caring for one another, 
+exposing hypocrisy, and caring for all of God's creation. Though I don't think
+there's only one way to believe in God, or analogues to God, I do think there
+is clear evil, and religious belief is often useful in keeping on the light side
+of the force. As Cornel West said, "The purpose of prophesy is not future-telling.
+Instead, it is the identification of concrete evil."
+
 ## further back history
+
 ### youth in Western New York State
 I was born in Rochester, NY, on a cold March evenening. In high school I played
 baseball and some other sports, biked much, had a band named BWAH, and got into 
@@ -41,9 +48,8 @@ gravitational wave astronomy.
 ### grad school at Rice (Houston, TX)
 In grad school I decided I wanted to diversify
 my talents and ended up building microscopes and cameras based on the 
-"single-pixel camera." 
-During that time I had a grand period of disillusionment, partly based on my 
-own meandering mind that discovered Chomsky and songwriting for our band
+"single-pixel camera." During that time I had a grand period of disillusionment, partly based on my 
+own meandering mind that discovered Chomsky while songwriting for our band
 called Sunday Afternoon. Playing music was the most fun thing I had going, 
 and I still hadn't shaken the dream of being a profiessional musician.  
 In the grad school years, I found my work co-opted by my adviser's startup
@@ -90,9 +96,24 @@ there was no such thing as noncombatant then in Vietnam--any who wasn't clearly
 a capitalist in the city was a filthy commie sympathizer and the rot must be 
 cut out. Just as now, the terrorists are everyone who is not 'with us.'
 
-## faith
+Alas, I digress. The most important thing that's happened in the last year is that
+I started going to church again; I'm a Christian. Saying that still feels 
+strange, and I can't really believe it after about ten atheist years. Why is 
+this important? Because it has focused my rage and inclination to protest. 
+I've learned of the Israelites enslaved in Babylon, and the word from God was
+to take up with Babylonians: grow gardens, do good works, and live in the light.
+Not to say protest can't exist along side of this. 
 
-## reason
-Maybe it was naive, but I hadn't realized until graduate school how real, powerful, 
-and missing from applied scientist's conversation is/was the 
+Also, before protesting, before making a single move, I've learned to seek first
+the Kingdom of God. It's still difficult for me to say exactly how, but this 
+has brought me peace by focusing my energy on this somewhat abstract call. It
+becomes less abstract when I think of it as, "seeing the face of God in every
+face I meet," or even in every living thing, or even all of Creation. Then, 
+you know your efforts are going to meet the needy. If first you see where you 
+can help those most oppressed by the things you protest, and take care to help
+them directly, I truly believe this is God's work. So is protest, especially 
+against that which desecrates creation, such as giant oil pipelines, clear-cuts
+of vital rainforest, and the intentional undermining of human dignity, like with
+drone strikes, secret wars, and other bloodshed and abuse.
+
 
