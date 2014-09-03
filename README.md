@@ -1,4 +1,4 @@
-mtpain.github.io
-================
+## mtpain.github.io, aka rebirthgalaxy.info
 
-Personal github.io page
+The time has come, convergence of ideas, 
+the inevitable consequence of reading.

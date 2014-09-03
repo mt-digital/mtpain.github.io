@@ -1,82 +1,23 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="From the mind of MAT : Dear whoever," />
+<div class="home">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+  <h1 class="page-heading">Posts</h1>
 
-<title>true</title>
-  </head>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-  <body>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <!--<a id="forkme_banner" href="https://github.com/mtpain">View on GitHub</a>-->
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-          <h1 id="project_title">From the mind of MAT*</h1>
-          <h2 id="project_tagline">Dear whoever,</h2>
-
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-<h2 id='in_single_words'>Hello!</h2>
-
-<p>Welcome to this page, currently just about me. More soon, hopefully.</p>
-
-<h2 id='recent_history_and_aspirations'>recent history and aspirations</h2>
-
-<p>In the past two years, I moved from Houston, TX, where I finished a master&#8217;s in applied physics to Moscow, Idaho, where I currently work as a data engineer. In my spare time I read, cook, work in the garden, study the bible and its teachings alone or with friends and fellows, play guitar, code, or bike, among other things.</p>
-
-<p>Very recently, I became the volunteer coordinator of my church to organize our efforts towards the Family Promise of the Palouse program. Family Promise is an organization dedicated to helping homeless families, started when a New Jersey professional realized that, maybe more than a handout of food or cash, the homeless seek dignity.</p>
-
-<p>I love programming, so I love my job right now. But I&#8217;m also interested in journalism. Back when I switched from journalism to physics and mathematics as a major in college, I always told myself that I could come back. At least in my spare time, I hope that will be the case. Currently in my sights is a project on federal research spending, and the pipeline from government spending in the academies to military, pharmaceutical, food, and other products whose sales often are by the government and from which private corporations profit immensely from. The motivation for this is given below, the last bit of my &#8216;further back history&#8217;.</p>
-
-<p>I want a Christain future, in the sense of people caring for one another, exposing hypocrisy, and caring for all of God&#8217;s creation. Though I don&#8217;t think there&#8217;s only one way to believe in God, or analogues to God, I do think there is clear evil, and religious belief is often useful in keeping on the light side of the force. As Cornel West said, &#8220;The purpose of prophesy is not future-telling. Instead, it is the identification of concrete evil.&#8221;</p>
-
-<h2 id='further_back_history'>further back history</h2>
-<p></p>
-<h3 id='youth_in_western_new_york_state'>youth in Western New York State</h3>
-
-<p>I was born in Rochester, NY, on a cold March evenening. In high school I played baseball and some other sports, biked much, had a band named BWAH, and got into not very much trouble. I originally enrolled in Syracuse University as an undecided communications major because I loved writing and the worlds of literature. But, the allure of quantum mechanics and strange, mysterious, yet knowable, mathematical symbols was too much, and I switched to a double major in physics and mathematics in my second year. During those undergrad years I worked on cosmology, computational electrodynamics, and gravitational wave astronomy.</p>
-
-<h3 id='grad_school_at_rice_houston_tx'>grad school at Rice (Houston, TX)</h3>
-
-<p>In grad school I decided I wanted to diversify my talents and ended up building microscopes and cameras based on the &#8220;single-pixel camera.&#8221; During that time I had a grand period of disillusionment, partly based on my own meandering mind that discovered Chomsky while songwriting for our band called Sunday Afternoon. Playing music was the most fun thing I had going, and I still hadn&#8217;t shaken the dream of being a profiessional musician.<br />In the grad school years, I found my work co-opted by my adviser&#8217;s startup (maybe taken as a normal thing these days), I gave a product demo of our camera to the CIA&#8217;s venture captial arm, In-Q-Tel, and had a mathematician working for Lockheed Martin tell us (me and my two Chinese national labmates) that Lockheed needs to know that we can put this on the front of a missile. So, on Tuesday I&#8217;d carry a sign, or protest &#8220;Energy Day&#8221; in downtown Houston with Occupy Houston protesters, and on Wednesday I&#8217;d be developing technology that would rain hell on Arabs or whoever else chose to defy the United States.</p>
-
-<h3 id='paradigm_shift'>paradigm shift</h3>
-
-<p>Perhaps what stunned me most about it all was the absence of discussion of issues of ethics. Of course there are &#8220;ethics&#8221; courses in the sciences, but, as far as I know, these are courses that say &#8220;don&#8217;t fake your data&#8221; and &#8220;don&#8217;t steal other people&#8217;s data&#8221; and to what degree one can remove outliers and still get published in <em>Nature</em>. It&#8217;s not anything like, &#8220;Taxpayers pay for this research and then it&#8217;s used as weaponry in wars that, according to some, are outright illegal, if we even know about them.&#8221; And on the day Anwar Al-Awlaki, an American citizen, was killed by a drone strike without trial, my research adviser defended the killing; my adviser claimed he had reviewed all the evidence, and the case for the death penalty without trial was clear: the man killed had &#8216;declared war&#8217; on the United States. Or maybe it is just bad business practice to bite the hand that feeds you.</p>
-
-<p>So, my initial reaction was to protest. This served much the same purpose that I feel the Occupy protests served: a voice to an inner conflict, a battle cry against a feeling of helplessness and powerlessness. I read Bird and Sherwin&#8217;s biography of Oppenheimer, and realized the nuclear age had ushered in with it a behemoth of a problem that is the military industrial complex. After moving to Idaho, I discovered an old vinyl recording in the UI Library of Nobel Laureate George Wald lecturing in support of a walkout by Boston-area faculty in protest of the Vietnam war, whose napalm and defoliation campaign with the now-infamous Agent Orange was created in concert with University laboratories. Reading Chomsky&#8217;s &#8220;The responsibility of intellectuals&#8221; taught me that it takes the village of the academies to endorse mass slaughter and make it seem reasonable, even justified, even a science for curious young minds to develop and employ. Where starvation of the Vietnamese non-combatant populace is like a set of optics mirrors in my laboratory, and the people are the sample, the political scientists of the time using the laboratory of Vietnam for evil experiments done at a plane ride&#8217;s distance from an armchair, disfugring generations to come; and now any thoughtful academic&#8217;s face is disfigured with guilt. Of course there was no such thing as noncombatant then in Vietnam&#8211;any who wasn&#8217;t clearly a capitalist in the city was a filthy commie sympathizer and the rot must be cut out. Just as now, the terrorists are everyone who is not &#8216;with us.&#8217;</p>
-
-<p>Alas, I digress. The most important thing that&#8217;s happened in the last year is that I started going to church again; I&#8217;m a Christian. Saying that still feels strange, and I can&#8217;t really believe it after about ten atheist years. Why is this important? Because it has focused my rage and inclination to protest. I&#8217;ve learned of the Israelites enslaved in Babylon, and the word from God was to take up with Babylonians: grow gardens, do good works, and live in the light. Not to say protest can&#8217;t exist along side of this.</p>
-
-<p>Also, before protesting, before making a single move, I&#8217;ve learned to seek first the Kingdom of God. It&#8217;s still difficult for me to say exactly how, but this has brought me peace by focusing my energy on this somewhat abstract call. It becomes less abstract when I think of it as, &#8220;seeing the face of God in every face I meet,&#8221; or even in every living thing, or even all of Creation. Then, you know your efforts are going to meet the needy. If first you see where you can help those most oppressed by the things you protest, and take care to help them directly, I truly believe this is God&#8217;s work. So is protest, especially against that which desecrates creation, such as giant oil pipelines, clear-cuts of vital rainforest, and the intentional undermining of human dignity, like with drone strikes, secret wars, and other bloodshed and abuse.</p>
-      
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <!--<p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>-->
-        <!--<p id="footer_contact">Contact:</p>-->
-        <p>Contact:</p>
-        <p class="footer_contact_entry"><a href="mailto:maturner01@gmail.com">maturner01.at.gmail dot com</a></p>
-        <p class="footer_contact_entry">twitter: <a href="http://www.twitter.com/mat20k">mat20k</a></p>
-          <a id="forkme_banner" href="https://github.com/mtpain">View on GitHub</a>
-      </footer>
-    </div>
-
-    
-
-  </body>
-</html>
+</div>

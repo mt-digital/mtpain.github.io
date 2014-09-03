@@ -1,9 +1,27 @@
 ---
-title: yes
+layout: page
+title: About
 ---
-### in single words:
-excitable, serious, silly, spacey, spiritual, ambitious, thoughtful
+
+# The news (Labor Day, 2014)
+
+Todd Snider tells a good story on a track titled [The News was Good](http://grooveshark.com/s/The+News+Was+Good/3U7Qf4?src=5) from 
+what grooveshark says is a bootleg. Mr. Snider is one of my favorite artists. Anyway, today, I'm sure that the news is good.
+
+I went to church. I have been reading RZA. Yet I got depressed. I think about mental health a lot, and I know that I'd been 
+very high manic, insatiable for knowledge and wisdom, and yet every time I think I've attained a new level of understanding,
+that the understanding won't die, then I fall back to death.
+
+So, this blog and other outlets like uploading my music on Soundcloud will, I imagine, help me define my edges. This happens when we meet
+others, when we see or hear our voice in media. I don't know a medium other than a web page where I can put pod casts, essays, songs,
+book reviews all in one place and see them in chronological order.
+
+So, all praise due to God, this is hopefully the first of many. A new rebirth for Rebirth Galaxy. 
+
+Below is a rambly "about me" that I first wrote a year ago for this site. Still true.
+
 ## recent history and aspirations
+
 In the past two years, I moved from Houston, TX, where I finished a master's in
 applied physics to Moscow, Idaho, where I currently work as a data engineer. 
 In my spare time I read, cook, work in the garden, study the bible and its teachings
@@ -15,7 +33,7 @@ Family Promise is an organization dedicated to helping homeless families,
 started when a New Jersey professional realized that, maybe more than a 
 handout of food or cash, the homeless seek dignity. 
 
-I love programming, so I love my job right now. But I'm also interested in 
+I  programming, so I love my job right now. But I'm also interested in 
 journalism.  Back when I switched from journalism to physics and mathematics
 as a major in college, I always told myself that I could come back. At least
 in my spare time, I hope that will be the case. Currently in my sights is a 
@@ -62,6 +80,7 @@ Occupy Houston protesters, and on Wednesday I'd be developing technology that
 would rain hell on Arabs or whoever else chose to defy the United States. 
 
 ### paradigm shift
+
 Perhaps what stunned me most about it all was the absence of discussion of 
 issues of ethics. Of course there are "ethics" courses in the sciences, but,
 as far as I know, these are courses that say "don't fake your data" and 
