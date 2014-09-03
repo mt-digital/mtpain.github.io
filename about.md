@@ -33,7 +33,7 @@ Family Promise is an organization dedicated to helping homeless families,
 started when a New Jersey professional realized that, maybe more than a 
 handout of food or cash, the homeless seek dignity. 
 
-I  programming, so I love my job right now. But I'm also interested in 
+I love to program, so I enjoy my job. But I'm also interested in 
 journalism.  Back when I switched from journalism to physics and mathematics
 as a major in college, I always told myself that I could come back. At least
 in my spare time, I hope that will be the case. Currently in my sights is a 
