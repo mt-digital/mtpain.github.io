@@ -20,6 +20,8 @@ body {
     font-weight: 300;
     color: $text-color;
     background-color: $background-color;
+/*        margin-left: -100px;
+    margin-right:100px;*/
 }
 
 
@@ -32,6 +34,7 @@ p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
+
 }
 
 
@@ -44,8 +47,20 @@ img {
     vertical-align: middle;
 }
 
+/**
+ * paragraph
+ */
+p.prose {
+    text-align:center;
+    font-weight:bolder;
+    font-size:15pt;
+}
 
-
+p#first_line {
+    font-size:14pt;
+    text-align:right;
+    font-weight:bolder;
+}
 /**
  * Figures
  */
