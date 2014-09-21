@@ -9,7 +9,7 @@ layout: post
 <!-- <img src="/resources/right_hook.png" id="right_hook" alt="Looking Right" align="right" style="height: 400px"> -->
 <img src="/resources/right_hook.jpg" id="right_hook" alt="Looking Right" style="height: 500px; margin-bottom:30px; position:absolute; right: 1%	; margin-left:5%">
 
-<p style="font-weight:bolder; font-size:14pt; text-align:left">
+<p class="prose">
 I wasn't sure
 </p>
 <p class="prose">
@@ -46,10 +46,14 @@ my dead brothers
 up next to me stuck in concrete...
 </p>
 
-<p style="text-align:right; font-weight:bolder; margin-bottom:100px; font-size:16pt">
+<p class="prose">
 yes!
 </p>
-
+<br>
+<br>
+<br>
+<br>
+<br>
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/168667074&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 
 <img src="/resources/full_line.jpg" id="right_hook" alt="Looking Right" align="right" >
