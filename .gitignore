@@ -1,0 +1,10 @@
+*.tex
+*.toc
+*.pdf
+*.log
+.aux
+*.aux
+*.out
+*.pyg
+.sass-cache
+_site/*
