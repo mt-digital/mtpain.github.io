@@ -7,13 +7,10 @@ date: 2015-02-04
 
 # Intro
 
-This post will first show you how to get started quickly writing .nc files from
+This post will show you how to get started quickly writing .nc files from
 the NetCDF-C interface on Mac OS X. The installation instructions will be
-different for Linux, but how to compile and run a program will be the same.
-
-The second part of this post will briefly discuss the "data model" for NetCDF
-with some sprinkling of my budding wisdom of why a data model is important and
-how it's actually ubiquitous once you see what a data model really is.
+different for Linux, but how to compile and run a program will be the same.  
+We'll also cover the abstract NetCDF data model.
 
 # The basics: Install netCDF-4 and write/compile a program
 
@@ -34,6 +31,8 @@ which is simpler and can be considered a minimum `Dataset`.
 Model](http://www.unidata.ucar.edu/software/netcdf/docs/html_tutorial/nc-classic-uml.png
 "NetCDF Classic Data Model")
 
+Taken from [UNIDATA
+site](http://www.unidata.ucar.edu/software/netcdf/docs/html_tutorial/nc-classic-uml.png).
 The NetCDF Enhanced Data Model allows for rich user-defined types as well, and
 I expect will serve us well.
 
@@ -65,14 +64,24 @@ $ brew install netcdf
 
 Simple!
 
+Finally, install the Python NetCDF bindings:
+
+{% highlight bash %}
+$ pip install netcdf4
+{% endhighlight %}
+
+There may be other dependencies, but pip will let you know about it.
+
+
 ## NetCDF-python
 
 * The [reference documentation](http://unidata.github.io/netcdf4-python/)
-is pretty good, once I actually gave it a good read.
+is very good, a must-read for working with NetCDF in general and in Python.
 * I just found a nice [IPython Notebook
 Tutorial](http://nbviewer.ipython.org/github/cedadev/ceda_training_mod5/blob/master/03-Creating_NetCDF.ipynb)
 that mirrors the [NetCDF-C tutorial
 ](http://www.unidata.ucar.edu/software/netcdf/docs/html_tutorial/index.html).
+
 Not sure what I'll eventually use. For now I need to get something done pretty
 fast with the progress I've made so far. That means going through some 
 NetCDF-Python examples, though I'm stoked about the C implementations as well.
@@ -190,16 +199,6 @@ dataset.close()
 {% endhighlight %}
 
 
-### Install NetCDF-python
-
-Simple:
-
-{% highlight bash %}
-$ pip install netcdf4
-{% endhighlight %}
-
-There may be other dependencies, but pip will let you know about it.
-
 
 ## NetCDF-C
 
@@ -255,18 +254,5 @@ cc -lnetcdf simple_xy_wr.c -o better_name
 {% endhighlight %}
 
 then run your freshly-compiled programming by exectuing `./better_name`.
-
-### Second sample program
-
-I went through the second example program, and it really helped. In the second
-example program of the tutorial, you create a netCDF file with two variables, 
-pressure and temperature, although maybe somewhat confusingly, 
-
-
-After you write this one, you can again do an `ncdump` and see your results.
-They should look like this (truncated):
-
-![ncdump of example 2](/resources/ncdump_for_blog.png)
-
 
 [as_setup]: http://alejandrosoto.net/blog/2014/01/22/setting-up-my-mac-for-scientific-research/ "Setting Up My Mac for Scientific Research"

@@ -8,3 +8,4 @@
 *.pyg
 .sass-cache
 _site/*
+*.swp
